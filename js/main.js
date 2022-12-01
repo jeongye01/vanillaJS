@@ -11,4 +11,4 @@ function Song(title,writer,singer,released){
 
 // 인스턴스
 const song1=new Song("124");
-//
+///
