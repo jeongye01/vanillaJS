@@ -1,53 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko-KR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vanilla Javascript</title>
-    <link rel="stylesheet" href="css/style.css">
-    
+  <meta charset="utf-8">
+  <title>div 요소를 사용한 문서의 아웃라인</title>
 </head>
 <body>
-    <header>
-        <nav></nav>
-    </header>
-    <main>
-        <h2>상품 구성</h2>
-        <dl>
-            <dt>선물용 3kg</dt>
-            <dd>소과 13~16과</dd>
-            <dd>중과 10~12과</dd>
-        </dl>
-        <dl>
-            <dt>선물용 3kg</dt>
-            <dd>소과 13~16과</dd>
-            <dd>중과 10~12과</dd>
-        </dl>
-        <form action="" autocomplete="off">
-            <label for="user-id">아이디(6자 이상)</label>
-            <input type="text" id="user-id"/>
-<fieldset>
-   <legend>상품 선택</legend>
-</fieldset>
-<fieldset>
-    <legend>배송 정보</legend>
- </fieldset>
- <input type="search" />
- <input type="url" readonly placeholder="url"/>
- <input type="email" autofocus />
- <input type="tel" />
- <input type="date" min="2020-02-01" max="2020-02-15"/>
- <input type="image" src="https://picsum.photos/200/300" alt=""/>
- <input type="datetime" />
- <input type="button" value="공지 창 열기" onclick="window.open('notice.html')" />
- <textarea id="memo" cols="10" rows="4"></textarea>
- <input type="file" />
- <input type="datetime-local"/>
-  <input type="submit" value="가입하기"/>
-  <input type="reset" value="취소"/>
-        </form>
-    </main>
-    <footer></footer>
+  <div id="wrapper">
+    <div id="header">
+      <div class="branding">
+        <h1>HTML5</h1>
+      </div>
+      <div class="gnb">
+        <h1>메인 메뉴</h1>
+        <ul>
+          <li><a href="#">콘텐츠 모델</a></li>
+          <li><a href="#">아웃라인 알고리즘</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+      <div class="section">
+        <h1>콘텐츠 모델 이란?</h1>
+        <p>어떤 요소에 어떤 콘텐츠를 포함해야 하는지 또 어떤 요소가 어떤 요소를 포함할 수 
+         있는지를 정의한 것을 말합니다.</p>
+      </div>
+      <div class="section">
+        <h1>콘텐츠 모델의 분류</h1>
+        <div class"article">
+          <h1>메타데이터 콘텐츠</h1>
+          <p>Metadata 콘텐츠는 다른 콘텐츠의 표현과 행동을 설정하거나 문서와 문서의 
+           관계를 설정할 때 사용합니다.</p>
+        </div>
+        <div class="article">
+          <h1>플로우 콘텐츠</h1>
+          <p>Flow 콘텐츠는 웹 페이지상에 직접 표시되지 않는 일부 메타데이터를 
+           제외하고 거의 모든 요소들이 이 그룹에 속합니다.</p>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <p>Copyright &copy; webCafe</p>
+    </div>
+  </div>
 </body>
 </html>
