@@ -1,0 +1,16 @@
+* {
+    margin : 0 ;
+    padding : 0 ;
+}
+div {
+    color : rgba( 255 , 0 , 0 , 0.5 ) ;
+}
+.note {
+    font-size : 1.2em ;
+   }
+   #main {
+    font-weight : bold ;
+   }
+   a[title] {
+    text-decoration : underline ;
+   }
