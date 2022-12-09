@@ -10,10 +10,13 @@ div {
     transform:skew(15deg);
     
 }
+div p {transition-duration:3s;}
+div p {transition-duration:5s,7s ;}
 .note {
     font-size : 1.2em ;
    }
    #main {
+    font-size:12px;
     font-weight : bold ;
    }
    a[title] {
